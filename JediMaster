@@ -1,0 +1,23 @@
+print ("A quantos anos você estuda?")
+
+var = int(input())
+
+if var <= 1:
+    print ("")
+    print ("Você é: Iniciante")
+   
+elif var > 1 and var <= 3:
+    print ("")
+    print ("Você é: Intermediário")
+   
+elif var > 3 and var <= 6 :
+    print ("")
+    print ("Você é: Avancado")
+   
+elif var < 0 :
+    print ("")
+    print ("Você não estudou nada ainda ;P")
+   
+else:
+    print ("")
+    print ("Você é: Jedi Master") 
